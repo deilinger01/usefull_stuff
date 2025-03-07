@@ -30,7 +30,7 @@ def merge_pdfs_fitz(input_folder, output_file):
         doc.insert_pdf(fitz.open(file_path))
 
     doc.save(output_file)
-    print("Merged the PDFs using pymupdf.")
+    print("Merged the PDFs.")
 
 input_folder = r""
 output_file = r""
